@@ -1,0 +1,58 @@
+project:
+  type: website
+  preview:
+    port: 3000
+    browser: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+
+website:
+  twitter-card: true
+  open-graph: false
+  repo-actions: [issue]
+  sidebar:
+    style: floating
+    contents:
+      - auto: "/*.ipynb"
+      - section: Tutorials
+        contents: tutorials/*
+      - section: Explanations
+        contents: explanations/*
+      - section: API
+        contents: api/*
+  favicon: favicon.png
+  navbar:
+    background: primary
+    search: true
+    collapse-below: lg
+    left:
+      - text: "idk"
+        href: getting_started.ipynb
+      - text: "abc"
+        href: tutorials/tutorial.ipynb
+      - text: "Curriculum vitae"
+        href: blog/index.qmd
+      - text: "Contact"
+        menu:
+          - text: "A"
+            icon: bug
+            href: https://github.com/fastai/nbdev/issues
+          - text: "B"
+            icon: chat-right-text
+            href: https://forums.fast.ai/
+          - text: "C"
+            icon: question-circle
+            href: getting_started.ipynb#faq
+    right:
+      - icon: github
+        href: "https://github.com/GalaxUniv"
+      - icon: twitter
+        href: https://twitter.com/afterhoursbilly
+
+metadata-files: [nbdev.yml]
+
