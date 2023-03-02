@@ -2,4 +2,7 @@ website:
   sidebar:
     contents:
       - 00_core.ipynb
-      - idx.ipynb
+      - 01_projects.ipynb
+      - section: Forest
+        contents:
+          - Forest/Forest.ipynb

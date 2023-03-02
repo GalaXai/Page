@@ -19,12 +19,6 @@ website:
     style: floating
     contents:
       - auto: "/*.ipynb"
-      - section: Tutorials
-        contents: tutorials/*
-      - section: Explanations
-        contents: explanations/*
-      - section: API
-        contents: api/*
   favicon: favicon.png
   navbar:
     background: primary
@@ -33,17 +27,17 @@ website:
     left:
       - text: "idk"
         href: getting_started.ipynb
-      - text: "abc"
-        href: tutorials/tutorial.ipynb
+      - text: "Projects"
+        href: My_pojects.html
       - text: "Curriculum vitae"
-        href: blog/index.qmd
+        href: images/cv.pdf
       - text: "Contact"
         menu:
-          - text: "A"
-            icon: bug
+          - text: "Discord"
+            icon: discord
             href: https://github.com/fastai/nbdev/issues
-          - text: "B"
-            icon: chat-right-text
+          - text: "Email"
+            icon: envelope-fill
             href: https://forums.fast.ai/
           - text: "C"
             icon: question-circle
