@@ -31,7 +31,7 @@ website:
       - text: "Projects"
         href: My_pojects.html
       - text: "Resume"
-        href: images/cv.pdf
+        href: images/CV.pdf
     right:
       - icon: github
         href: "https://github.com/GalaxUniv"

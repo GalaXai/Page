@@ -9,6 +9,8 @@ about:
   image-width: 20em
   image-shape: round
   links:
+    - icon: discord
+      text: b1x4#9406
     - icon: github
       text: GitHub
       href: https://github.com/GalaxUniv
@@ -18,6 +20,9 @@ about:
     - icon: chevron-bar-left
       text: Kaggle
       href: https://www.kaggle.com/galaxqq
+    - icon: envelope
+      text: afterhoursbilly@gmail.com
+      href: mailto:afterhoursbilly@gmail.com
 sidebar: false
 ---"""
 
@@ -62,6 +67,4 @@ Although I may not have any commercial experience, I have been passionately delv
 
 {btn('My projects', '/My_pojects.html',)}""")
 
-b(f"""## Contact Information
-{img('discord-white.png', style={"margin-top": "20px", "margin-bottom": "20px",  "width": "32px", "height": "auto"}, link=True)}        b1x4#9406
-{img('mail.png', style={"width": "42px", "height": "auto"}, link=True)} afterhoursbilly@gmail.com""", "content-block")
+b(f"""## Contact Information""", "content-block")
