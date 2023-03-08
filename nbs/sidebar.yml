@@ -1,8 +1,6 @@
 website:
   sidebar:
     contents:
-      - 00_core.ipynb
-      - test.qmd
       - section: Projects
         contents:
           - section: Forest

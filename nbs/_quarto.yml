@@ -30,15 +30,8 @@ website:
     left:
       - text: "Projects"
         href: My_pojects.html
-      - text: "Curriculum vitae"
+      - text: "Resume"
         href: images/cv.pdf
-      - text: "Contact"
-        menu:
-          - text: "Galax#7736"
-            icon: discord
-            href : index.html
-          - text: "Email"
-            icon: envelope-fill
     right:
       - icon: github
         href: "https://github.com/GalaxUniv"
