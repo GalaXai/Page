@@ -2,7 +2,9 @@ website:
   sidebar:
     contents:
       - 00_core.ipynb
-      - 01_projects.ipynb
-      - section: Forest
+      - test.qmd
+      - section: Projects
         contents:
-          - Forest/Forest.ipynb
+          - section: Forest
+            contents:
+              - Projects/Forest/Forest.ipynb

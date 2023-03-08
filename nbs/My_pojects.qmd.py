@@ -1,18 +1,23 @@
 """---
-title: TEST1
-pagetitle: My project list
-page-layout: custom
+pagetitle: My Projects
 section-divs: false
-css: index.css
+page-layout: full
 toc: false
-description: Write page description here.
+listing:
+  contents: Projects
+  sort: date desc
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+title-block-banner: true
 ---"""
 
 from fastcore.foundation import L
 from nbdev import qmd
 
 projects = L(
-    ('forest.png', 'Project Name', 'Long Name', 'Description'),
+    ('mail.png', 'Project Name', 'Long Name', 'Description'),
     ('forest.png', 'Projet 2', 'Longer Name', ' Description'),
     ('forest.png', 'pjname', 'qq, dd', 'XD'),
 )
@@ -29,7 +34,7 @@ def testm(im, nm, detl, txt):
 
 ### {txt}""", ["testimonial", "g-col-12", "g-col-md-6"])
 
-projects_d = qmd.div('\n'.join(projects.starmap(testm)), ['content-block', 'grid', 'gap-4'])
+projects_d = qmd.div('\n'.join(projects.starmap(testm)), ['content-block', 'grid', 'gap-6'])
 
 def feature(im, desc): return qmd.div(f"{img(im+'.svg')}\n\n{desc}\n", ['feature', 'g-col-12', 'g-col-sm-6', 'g-col-md-4'])
 
@@ -40,19 +45,4 @@ def d(*args, **kwargs): print(qmd.div(*args, **kwargs))
 # Output section
 ###
 
-b(f"""# My Personal <span style='color:#c12d4a'> Projects</span><br>
-
-### You can write here something idk what yet.
-
-{btn('View All Projects', '/01_projects.ipynb')}
-
-""")
-
-projects_b = banner("## Here's are some of them")
-
-d(projects_b+projects_d, "mid-content")
-
-b(f"""## Temp Place
-
-{btn('Temp Name', '/01_projects.ipynb')}""", 'content-block', style={"margin-top": "40px"})
 

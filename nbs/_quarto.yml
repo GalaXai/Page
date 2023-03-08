@@ -6,42 +6,39 @@ project:
 
 format:
   html:
-    theme: cosmo
+    theme:
+        light: flatly
+        dark: darkly
     css: styles.css
     toc: true
     toc-depth: 4
 
 website:
   twitter-card: true
+  title: "Billy's Page"
   open-graph: false
   repo-actions: [issue]
+  favicon: images/forest.png
   sidebar:
-    style: floating
-    contents:
-      - auto: "/*.ipynb"
-  favicon: favicon.png
+      style: floating
+      contents:
+        - auto: "/*.ipynb"
   navbar:
     background: primary
     search: true
     collapse-below: lg
     left:
-      - text: "idk"
-        href: getting_started.ipynb
       - text: "Projects"
         href: My_pojects.html
       - text: "Curriculum vitae"
         href: images/cv.pdf
       - text: "Contact"
         menu:
-          - text: "Discord"
+          - text: "Galax#7736"
             icon: discord
-            href: https://github.com/fastai/nbdev/issues
+            href : index.html
           - text: "Email"
             icon: envelope-fill
-            href: https://forums.fast.ai/
-          - text: "C"
-            icon: question-circle
-            href: getting_started.ipynb#faq
     right:
       - icon: github
         href: "https://github.com/GalaxUniv"

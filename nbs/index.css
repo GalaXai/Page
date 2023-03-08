@@ -179,6 +179,7 @@ body {
 
 .footer {
   color: #A2A8B4;
+  background: var(--background);
   font-size: 16px;
   margin-top: 40px;
   padding-top: 30px !important;
@@ -194,6 +195,10 @@ body {
 
 .btn-action-primary:hover, .btn-action-primary:active, .btn-action-primary:focus {
   background: #35acf0;
+}
+
+div.quarto-post a {
+ color:white;
 }
 
 .btn-action {

@@ -1,12 +1,14 @@
 """---
-title: Hello
-pagetitle: 01_Page
-page-layout: custom
+pagetitle: Page
 section-divs: false
-css: index.css
+css: styles.css
 toc: false
-image: forest.png
-description: Welcome ot my website.
+image: images/profile.jpg
+about:
+  template: jolla
+  image-width: 20em
+  image-shape: round
+sidebar: false
 ---"""
 
 from fastcore.foundation import L
@@ -17,7 +19,7 @@ def img(fname, classes=None, **kwargs): return qmd.img(f"images/{fname}", classe
 
 
 def btn(txt, link): return qmd.btn(txt, link=link,
-                                   classes=['btn-action-primary', 'btn-action', 'btn', 'btn-success', 'btn-lg'])
+                                   classes=['btn-action-primary', 'btn-action', 'btn', 'btn-success', 'btn-lg'],style ={"background-color": "#c12d4a","border-color":"#c12d4a"})
 
 def banner(txt, classes=None, style=None): return qmd.div(txt, L('hero-banner') + classes, style=style)
 
@@ -42,14 +44,15 @@ def d(*args, **kwargs): print(qmd.div(*args, **kwargs))
 # Output section
 ###
 
+
 b(f"""# <span style='color:#009AF1'>Hello </span><br>Welcome to my Page 👋
 
-### Ideas about me ikd what tbh intrestts stmth like that or smth idk
+Hello,I am aspiring Data Scientist/Software Enginer, Today second year Computer Science, currently exploring Deep Learning Area. Althought i may not have any commercial experience, I have been having fun with Deep Learning concepts
+and made some small projects most of them can be found on my kaggle profile, or by going to the Projects tab
+My most significant project can be found by using the button bellow
 
-{btn('Get started', '/getting_started.ipynb')}
+{btn('My projects', '/My_pojects.html',)}""")
 
-{img('card.png', style={"margin-top": "40px", "margin-bottom": "40px"}, link=True)}""", "content-block")
-
-b(f"""## Get started in seconds
-
-{btn('Install nbdev', '/getting_started.ipynb')}""", 'content-block', style={"margin-top": "40px"})
+b(f"""## Contact Information
+{img('discord-white.png', style={"margin-top": "20px", "margin-bottom": "20px",  "width": "32px", "height": "auto"}, link=True)}        afterhoursbilly#1234
+{img('mail.png', style={"width": "42px", "height": "auto"}, link=True)} afterhoursbilly@gmail.com""", "content-block")
