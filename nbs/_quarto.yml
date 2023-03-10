@@ -32,6 +32,14 @@ website:
         href: My_pojects.html
       - text: "Resume"
         href: images/CV.pdf
+      - text: "Contact"
+        menu:
+          - icon: envelope
+            text: afterhoursbilly@gmail.com
+            href: mailto:afterhoursbilly@gmail.com
+          - icon: discord
+            text: b1x4#9406
+            href: https://www.discord.com/users/1063240042291671050
     right:
       - icon: github
         href: "https://github.com/GalaxUniv"

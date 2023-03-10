@@ -11,6 +11,7 @@ about:
   links:
     - icon: discord
       text: b1x4#9406
+      href: https://www.discord.com/users/1063240042291671050
     - icon: github
       text: GitHub
       href: https://github.com/GalaxUniv
