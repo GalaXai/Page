@@ -1,16 +1,20 @@
 """---
-pagetitle: My Projects
+pagetitle: fastai22
 section-divs: false
 page-layout: full
 toc: false
 listing:
-  contents: Project_index/
+  contents: ../../Projects/fastai22/
   sort: date desc
   type: default
   categories: true
   sort-ui: false
   filter-ui: false
 title-block-banner: true
+
+date: 2023-03-17
+image: course.png
+categories: [Jupyter,fastai]
 ---"""
 
 from fastcore.foundation import L
@@ -45,4 +49,5 @@ def d(*args, **kwargs): print(qmd.div(*args, **kwargs))
 # Output section
 ###
 
+b(f"""# <span style='color:#c12d4a'> fast.ai </span>Practical Deep Learning for Coders 2022 Notes<br> """)
 
