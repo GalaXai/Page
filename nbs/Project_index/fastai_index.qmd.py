@@ -4,7 +4,9 @@ section-divs: false
 page-layout: full
 toc: false
 listing:
-  contents: ../../Projects/fastai22/
+  contents: 
+      - "../../Projects/fastai22/part1/*.html"
+      - "../../Projects/fastai22/part1/*.ipynb"
   sort: date desc
   type: default
   categories: true
@@ -49,5 +51,7 @@ def d(*args, **kwargs): print(qmd.div(*args, **kwargs))
 # Output section
 ###
 
-b(f"""# <span style='color:#c12d4a'> fast.ai </span>Practical Deep Learning for Coders 2022 Notes<br> """)
+b(f"""# <span style='color:#c12d4a'> fast.ai </span>Practical Deep Learning for Coders 2022 Notes<br> 
+
+""")
 
