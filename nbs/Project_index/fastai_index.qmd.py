@@ -5,7 +5,6 @@ page-layout: full
 toc: false
 listing:
   contents: 
-      - "../../Projects/fastai22/part1/*.html"
       - "../../Projects/fastai22/part1/*.ipynb"
   sort: date desc
   type: default
