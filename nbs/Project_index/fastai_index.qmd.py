@@ -6,7 +6,7 @@ toc: false
 listing:
   contents: 
       - "../../Projects/fastai22/part1/*.ipynb"
-  sort: date desc
+  sort: title desc
   type: default
   categories: true
   sort-ui: false
@@ -14,7 +14,7 @@ listing:
 title-block-banner: true
 
 date: 2023-03-17
-image: course.png
+image: data/course.png
 categories: [Jupyter,fastai]
 ---"""
 

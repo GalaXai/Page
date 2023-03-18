@@ -3,6 +3,7 @@ website:
     contents:
       - section: Project_index
         contents:
+          - Project_index/Notion_Notes.qmd
           - Project_index/forest_index.ipynb
       - section: Projects
         contents:
@@ -30,3 +31,17 @@ website:
               - section: part1
                 contents:
                   - Projects/fastai22/part1/05-linear-model-and-neural-net-from-scratch.ipynb
+      - section: Projects
+        contents:
+          - section: fastai22
+            contents:
+              - section: part1
+                contents:
+                  - Projects/fastai22/part1/07-how-random-forests-really-work.ipynb
+      - section: Projects
+        contents:
+          - section: fastai22
+            contents:
+              - section: part1
+                contents:
+                  - Projects/fastai22/part1/08-collaborative-filtering-deep-dive.ipynb
