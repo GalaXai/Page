@@ -3,7 +3,6 @@ website:
     contents:
       - section: Project_index
         contents:
-          - Project_index/Notion_Notes.qmd
           - Project_index/forest_index.ipynb
       - section: Projects
         contents:
@@ -45,3 +44,10 @@ website:
               - section: part1
                 contents:
                   - Projects/fastai22/part1/08-collaborative-filtering-deep-dive.ipynb
+      - section: Projects
+        contents:
+          - section: fastai22
+            contents:
+              - section: part2
+                contents:
+                  - Projects/fastai22/part2/01_matmul.ipynb

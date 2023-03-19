@@ -6,6 +6,7 @@ toc: false
 listing:
   contents: 
       - "../../Projects/fastai22/part1/*.ipynb"
+      - "../../Projects/fastai22/part2/*.ipynb"
   sort: title desc
   type: default
   categories: true
