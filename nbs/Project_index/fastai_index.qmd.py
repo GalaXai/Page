@@ -17,6 +17,7 @@ title-block-banner: true
 date: 2023-03-17
 image: data/course.png
 categories: [Jupyter,fastai]
+description: My notes, code and models from the fastai's Practical Deep Learning for Coders 2022. Includes part 1 and 2
 ---"""
 
 from fastcore.foundation import L
