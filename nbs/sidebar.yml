@@ -51,3 +51,10 @@ website:
               - section: part2
                 contents:
                   - Projects/fastai22/part2/01_matmul.ipynb
+      - section: Projects
+        contents:
+          - section: fastai22
+            contents:
+              - section: part2
+                contents:
+                  - Projects/fastai22/part2/02_meanshift.ipynb
